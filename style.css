@@ -9,7 +9,13 @@ body {
   padding: 0;
 }
 
-.caption {
+header {
+  background-color: white;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  border-top: 4px solid hsl(0deg, 0%, 40%);
 }
 
 /* Add styles here! */
