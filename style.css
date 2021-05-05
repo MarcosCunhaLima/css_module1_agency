@@ -12,23 +12,24 @@ body {
 header {
   background-color: white;
   height: 50%;
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 main {
   background-color: hsl(0deg, 0%, 60%);
   border-top: 4px solid hsl(0deg, 0%, 40%);
   height: 50%;
-  padding-top: 10%;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .max-width-wrapper {
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .intro-chunk {
@@ -40,6 +41,8 @@ main {
   background-color: white;
   border-bottom: 4px solid hsl(0deg, 0%, 40%);
   padding: 16px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* Add styles here! */
