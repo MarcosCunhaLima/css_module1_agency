@@ -16,6 +16,21 @@ header {
   padding-bottom: 96px;
 }
 
+.title {
+  font-size: 1.5rem;
+}
+
+.indented-heading {
+  font-size: 1rem;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 4px solid hsl(45deg, 100%, 40%);
+  width: fit-content;
+  padding: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-left: -24px;
+}
+
 main {
   background-color: hsl(0deg, 0%, 60%);
   border-top: 4px solid hsl(0deg, 0%, 40%);
@@ -43,6 +58,7 @@ main {
   padding: 16px;
   margin-left: 0px;
   margin-right: 0px;
+  padding-top: 0px;
 }
 
 /* Add styles here! */
